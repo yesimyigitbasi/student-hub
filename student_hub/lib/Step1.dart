@@ -20,14 +20,29 @@ class StudentHubApp extends StatelessWidget {
   }
 }
 
-// Stub for Hour 1
+
 class CourseListScreen extends StatelessWidget {
   const CourseListScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Student Hub')),
+      appBar: AppBar(
+        /////////////////////////////////////
+        title: const Text('Student Hub'),
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.add),
+            onPressed: () {
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(content: Text('Add Course Clicked!')),
+              );
+            },
+          ),
+        ],
+      ),
+      /////////////////////////////////////////
       body: ListView(
         padding: const EdgeInsets.all(16.0),
         children: const [
@@ -38,7 +53,7 @@ class CourseListScreen extends StatelessWidget {
   }
 }
 
-// Stub for Hour 2
+
 class CourseDetailScreen extends StatelessWidget {
   final String courseName;
   const CourseDetailScreen({super.key, required this.courseName});
