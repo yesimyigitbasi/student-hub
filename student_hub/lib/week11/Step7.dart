@@ -170,8 +170,8 @@ class _GradesTabState extends State<GradesTab> {
         child: AnimatedScale(
           //////////////////////////////////////////////////////
           scale: _isPressed ? 0.90 : 1.0, 
-          duration: const Duration(milliseconds: 100),
-          curve: Curves.easeInOut,
+          duration: const Duration(milliseconds: 50),
+          curve: Curves.fastEaseInToSlowEaseOut,
           child: Container(
             width: 300,
             height: 200,
@@ -183,7 +183,7 @@ class _GradesTabState extends State<GradesTab> {
             child: const Center(
               child: Text(
                 'Grade: A+',
-                style: TextStyle(fontSize: 48, color: Colors.white, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.bold),
               ),
             ),
           ),
