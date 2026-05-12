@@ -12,7 +12,7 @@
 //   dependencies:
 //     google_maps_flutter: ^2.9.0
 //
-// ⚠ IMPORTANT: Replace YOUR_API_KEY in:
+//  IMPORTANT: Replace YOUR_API_KEY in:
 //   Android: android/app/src/main/AndroidManifest.xml
 //   iOS:     ios/Runner/AppDelegate.swift
 // ═══════════════════════════════════════════════════════════════════════════

@@ -2,10 +2,10 @@
 // CMPE408 Week 12 — Step 7: COMPLETE APP (Final)
 //
 // Full-featured app combining all four modules:
-//   🌐 In-App Browser (WebView + JavaScript channel)
-//   📱 Motion Sensor Dashboard (Accelerometer, Gyroscope, Shake)
-//   🗺️  Live Location Tracker (Google Maps + GPS polyline)
-//   🗒️  Local Notes (SQLite CRUD, pin, search, batch, transactions)
+//   In-App Browser (WebView + JavaScript channel)
+//   Motion Sensor Dashboard (Accelerometer, Gyroscope, Shake)
+//   Live Location Tracker (Google Maps + GPS polyline)
+//   Local Notes (SQLite CRUD, pin, search, batch, transactions)
 //
 // ─── REQUIRED pubspec.yaml ──────────────────────────────────────────────────
 //
